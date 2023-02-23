@@ -15,7 +15,7 @@ your_password = "yourpass"
 # connection with gmail
 server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
 server.ehlo()
-server.login(user="giannisfrageskakis@gmail.com" , password="wbikbzaiywykjjuk")
+server.login(user="yourmail" , password="yourpass")
 
 # reading the spreadsheet
 email_list = pd.read_excel('Excel file location')
