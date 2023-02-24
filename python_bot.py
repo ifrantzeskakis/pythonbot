@@ -41,5 +41,6 @@ for i in range(len(emails)):
 
     # sending the email
     server.send_message(message)
+    time.sleep(x)
 # close the smtp server
 server.close()
